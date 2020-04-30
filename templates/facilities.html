@@ -1,0 +1,111 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+{% load static %}
+
+    <head>
+    <title>Facilities Page</title>
+    </head>
+
+    <!-- Main Content -->
+    <div class="row shadow-sm p-3 bg-white rounded">
+      <div class="col-md-12 mt-3 mb-2">
+        <h3 style="color:teal" align="center">Our Facilities</h3>
+      </div>
+        <div class="container">
+            <div class="row">
+                <div class="text-justify">
+
+            Facilities provided in a school are far greater
+            that the academic facilities of classrooms, library, laboratories and computer-room found
+            in a conventional school.<br><br>
+                </div>
+            </div>
+        </div>
+
+      <div class="col-md-6 col-lg-3">
+        <img src="{% static 'images/Student.jpg' %}" style="height:auto; width:auto;" class="img-fluid img-thumbnail phto-algn">
+      </div>
+
+
+      <div class="col-md-6 col-lg-9 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h3>Academic Facilities</h3>
+            <p class="card-text text-justify">Both locations of the school are affiliated to the Central Board of
+                Secondary Education, Delhi (CBSE), and the Sr School is affiliated till the senior secondary level (+2).
+            </p>
+            <a href="{% url 'acad_read' %}" class="btn btn-sm btn-outline-success">Read More</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-6 col-lg-3">
+        <img src="{% static 'images/Capture10.PNG'%}" style="height:auto; width:auto;" class="img-fluid img-thumbnail phto-algn">
+      </div>
+      <div class="col-md-6 col-lg-9 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h3>Games & Sports</h3>
+            <p class="card-text text-justify">A world famous dictum states that, "The Battle of Waterloo was fought
+                and won on the playing fields of Eton". No better image can be portrayed of the importance of
+                sports for character building.
+            </p>
+
+            <a href="{% url 'game_read' %}" class="btn btn-sm btn-outline-success">Read More</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-6 col-lg-3">
+        <img src="{% static 'images/download2.jpg'%}" style="height:auto; width:auto;" class="img-fluid img-thumbnail phto-algn">
+      </div>
+      <div class="col-md-6 col-lg-9 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h3>Activities</h3>
+            <p class="card-text text-justify">Co-curricular activities like Music (Indian, Vocal and Instrumental),
+                Art, Craft, Painting,Macrame ,Stitching, Knitting, Embroidery, Gardening, Mass PT, Gymnastics, Band
+                (Brass and Bugle) and Karate are offered in the school curriculum.
+            </p>
+            <a href="{% url 'fac_read' %}" class="btn btn-sm btn-outline-success">Read More</a>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-md-6 col-lg-3">
+        <img src="{% static 'images/boarding.jpg' %}"style="height:auto; width:auto;" class="img-fluid img-thumbnail phto-algn">
+      </div>
+      <div class="col-md-6 col-lg-9 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h3>Boarding Facilities</h3>
+            <p class="card-text text-justify">The hostels are made up of dormitories and attached washrooms with hot
+                and cold running water. </p>
+            <a href="{% url 'board_read' %}" class="btn btn-sm btn-outline-success">Read More</a>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-md-6 col-lg-3">
+        <img src="{% static 'images/Sangam_Setu.jpg'%}" style="height:auto; width:auto;" class="img-fluid img-thumbnail phto-algn">
+      </div>
+      <div class="col-md-6 col-lg-9 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h3>New Developments</h3>
+            <p class="card-text text-justify">Several new branches are opening in near future. Do check our website for further updates.  </p>
+            <a href="{% url 'new_read' %}" class="btn btn-sm btn-outline-success">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   {% endblock %}

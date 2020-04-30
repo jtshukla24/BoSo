@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Crimson Text', serif;
+    text-transform:uppercase;
+}
+
+p{
+    font-family: 'Crimson Text', serif;
+    font-size:20px;
+}
+
+body{
+    position: relative;
+}
+
+nav a{
+    font-family: 'Crimson Text', serif;
+    font-size:22px;
+}
+
+.mar-auto{
+    margin:0px auto;
+    margin-left:40%;
+}
+
+.mar-auto-btn{
+    margin:0px auto;
+    margin-left:30%;
+}
+
+.mar-left-nav{
+    margin-left:15px;
+}
+.bg-header{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f0f9ff+0,cbebff+47,99efe8+100 */
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#feffff+0,ddf1f9+35,65d3c8+99 */
+    background: rgb(254,255,255); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(254,255,255,1) 0%, rgba(221,241,249,1) 35%, rgba(101,211,200,1) 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(254,255,255,1) 0%,rgba(221,241,249,1) 35%,rgba(101,211,200,1) 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(254,255,255,1) 0%,rgba(221,241,249,1) 35%,rgba(101,211,200,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#65d3c8',GradientType=1 ); /* IE6-9 */
+    padding:20px 0px;
+}
+
+.bg-footer{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+background: rgb(125,126,125); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 */
+color:white;
+padding:20px 0px;
+}
+
+/* Footer Style */
+.block1 li{
+    display:block;
+    line-height:1.9rem;
+}
+
+.block1 li a{
+    color:white;
+}
+
+
+.block2 li{
+    display:inline;
+    line-height:1.9rem;
+}
+
+.block2 li a{
+    color:white;
+    font-size:25px;
+    margin:0px 5px;
+}
+
+.foot-font{
+    font-size:25px;
+    font-family: 'Crimson Text', serif;
+    color:red;
+}
+
+.ser-rgt{
+        padding: 10px 0px;
+        /* float:right; */
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 
+    .hdr-btn-lgo
+    {
+        display: inline;
+        float: left;
+    }
+
+    .mar-auto{
+        margin:0px auto;
+        margin-left:30%;
+    }
+
+    .mar-auto-btn{
+        margin:0px auto;
+        margin-left:20% !important;
+    }
+ }
+
+ @media (min-width: 992px) and (max-width: 2560px) { 
+    .hdr-btn-lgo
+    {
+        display:inline;
+    }
+
+    /* .ser-rgt{
+        margin: 10px 0px;
+        float:right;
+    } */
+
+ }
+
