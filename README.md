@@ -17,6 +17,7 @@ and corresponding responses with Login and Registration portal. The project is d
 3.	[PyCharm](https://www.jetbrains.com/pycharm/)
 4. 	HTML, CSS, [Bootstrap]( https://getbootstrap.com/docs/4.4/getting-started/download/)
 4.   [MySQL v8.0]( https://www.mysql.com/downloads/) (recommended)
+
     ### OR
     sqlite3 (Python built-in database )
 
