@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d01ca0d2-e80a-4792-9858-84a93fc50419" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School_Management/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/School_Management/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School_Management/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/School_Management/wsgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +110,8 @@
       <workItem from="1588248467316" duration="3837000" />
       <workItem from="1588252413946" duration="3662000" />
       <workItem from="1588839670018" duration="1612000" />
-      <workItem from="1588847608428" duration="3458000" />
+      <workItem from="1588847608428" duration="8702000" />
+      <workItem from="1588881029383" duration="322000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1588255548185</created>
@@ -127,6 +131,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="21" key="#Inspections" timestamp="1588869240673">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1588869240673" />
     <state x="141" y="0" key="CommitChangelistDialog2" timestamp="1588255483782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
