@@ -38,7 +38,7 @@ and corresponding responses with Login and Registration portal. The project is d
 
 3.	You can setup the project environment by setting up the project interpreter by navigating to the path where you have installed Python.
 
-4.	For setting up the database, you can change 'DATABASES’ variable in **_settings.py_** file in project directory.
+4.	For setting up the database, you can change **DATABASES** variable in **_settings.py_** file in project directory.
 
 5.	Setup Database to either MySQL or sqlite3. For using MySQL, you need to setup a database named, **newboso**, in MySQL.
     ```bash
