@@ -23,6 +23,12 @@ and corresponding responses with Login and Registration portal. The project is d
 
 ## Getting Started
 
+1.  Run below command to install dependencies
+
+     ```bash
+    $ pip install -r requirements.txt
+    ```
+
 1.	If you’re cloning the repo, you should have [Git Bash]( https://desktop.github.com/) installed on the system and then you can use following command :
     ```bash
     $ git clone https://github.com/jtshukla24/BoSo.git
