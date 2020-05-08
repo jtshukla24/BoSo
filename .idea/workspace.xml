@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d01ca0d2-e80a-4792-9858-84a93fc50419" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="d01ca0d2-e80a-4792-9858-84a93fc50419" name="Default Changelist" comment="Made cga">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Requirements.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/School_Management/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/School_Management/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/School_Management/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/School_Management/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -111,7 +111,9 @@
       <workItem from="1588252413946" duration="3662000" />
       <workItem from="1588839670018" duration="1612000" />
       <workItem from="1588847608428" duration="8702000" />
-      <workItem from="1588881029383" duration="322000" />
+      <workItem from="1588881029383" duration="598000" />
+      <workItem from="1588883010713" duration="885000" />
+      <workItem from="1588910911730" duration="547000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1588255548185</created>
@@ -135,10 +137,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="21" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1588869240673" />
-    <state x="141" y="0" key="CommitChangelistDialog2" timestamp="1588255483782">
+    <state x="141" y="0" key="CommitChangelistDialog2" timestamp="1588911448248">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="141" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588255483782" />
+    <state x="141" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588911448248" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1588253263827">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -191,5 +193,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="217" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1588187014943" />
+    <state x="395" y="79" key="MultipleFileMergeDialog" timestamp="1588883565096">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="395" y="79" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1588883565096" />
+    <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588911625647">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1588911625647" />
   </component>
 </project>
